@@ -239,7 +239,7 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 
 .cd-scrolling-bg__content {
   width: 90%;
-  max-width: 768px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
@@ -462,44 +462,12 @@ span {
   text-align: center;
 }
 
-/* -----------------------------------------------hexagons------------------------------------------------ */
-
-/* .hexagon {
-  position: relative;
-  width: 80px; 
-  height: 46.19px;
-  background-color: #fc0;
-  margin: 23.09px 0;
+.contact-header {
+  text-align: center;
 }
 
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-}
 
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 23.09px solid #fc0;
-}
-
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 23.09px solid #fc0;
-}
-
-.hex-group {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-} */
-
-i.fa {
+#icons {
   display: inline-block;
   text-align: center;
   border-radius: 100px;
@@ -507,3 +475,78 @@ i.fa {
   box-shadow: 0px 0px 2px #888;
   padding: 0.5em 0.6em;
 }
+
+/* ----------------------------------contact page---------------------------------- */
+
+.social {
+  /* background-color: #ffffff; */
+  text-align: center;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  /* border: 1px solid #bdbdbd; */
+  padding: 0px 16px 20px 16px;
+}
+
+.social-header {
+  color: #192127;
+  /* background-color: #ffffff; */
+  /* border-bottom: 2px solid #bdbdbd; */
+  margin-bottom: 13px;
+}
+
+.fa {
+  padding: 20px;
+  width: 82px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-linkedin:before {
+  font-size: 40px;
+}
+
+.fa-slack:before {
+  font-size: 40px;
+}
+
+.fa-github:before {
+  font-size: 40px;
+}
+
+.fa-linkedin:hover {
+  background:white;
+  color: #007bb5;
+} 
+
+.fa-slack:hover {
+  background: white;
+  color:#02bb79; 
+}
+
+.fa-github:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border: solid 1px white;
+}
+
+.fa-slack {
+  background:#02bb79;
+  color: white;
+  border: solid 1px white;
+} 
+
+.fa-github {
+  background:#000000;
+  color: white;
+  border: solid 1px white;
+}
+
+/* .clearfix {
+  overflow: auto;
+} */
