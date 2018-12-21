@@ -229,7 +229,7 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
   background-color: #687a84;
   color: #3d3536;
   padding-top: 90px;
-  padding-bottom: 600px;
+  padding-bottom: 800px;
 }
 
 .cd-scrolling-bg.cd-scrolling-bg--color-3 {
@@ -549,6 +549,14 @@ span {
 
 
 /* -------------------About Section-------------------------------------------------------------------- */
+.about-text h1{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.about-text h2{
+    font-size: 24px;
+    /* font-weight: bolder; */
+}
 #icon-1 {
   width: 100px;
   height: 100px;
