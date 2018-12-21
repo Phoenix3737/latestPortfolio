@@ -251,14 +251,33 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
     font-weight: 300;
   }
 }
+/* ------------------------------------veiw my work button------------------------------------------ */
 
-/* ------------------------------------text styling------------------------------------------------ */
+#about-button{
+  color: #fff;
+  background-color: #192127;
+  border-color: #ffffff;
+  margin-top: 90px;
+}
 
-/* .projects-txt{
-  color: rgb(25, 33, 39);
-} */
+.button-fade {
+    -webkit-animation: 12s ease 0s normal forwards 1 fadein;
+    animation: 12s ease 0s normal forwards 1 fadein;
+}
 
-/* ------------------------------------animate text------------------------------------------------ */
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* ------------------------------------animated text------------------------------------------------ */
 
 .unbreakable {
   font-family: 'Anton', sans-serif;
@@ -285,14 +304,6 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
   /* border-top: #bebebe solid 2px; */
 }
 
-.paragraph {
-  font-size: 32px;
-  margin-top: 20px;
-  padding-bottom: 13px;
-  animation: 1s ease 5.3s normal forwards 1 fadein;
-  -webkit-animation: 1s ease 5.3s normal forwards 1 fadein;
-  opacity: 0
-}
 
 .animate .ks {
   -webkit-transform: translateX(0);
@@ -300,11 +311,6 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
   transform: translateX(0);
 }
 
-.animate .paragraph {
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-}
 
 span {
   font-family: 'Anton', Helvetica, sans-serif;
@@ -397,26 +403,12 @@ span {
 /*------------------------------------------------- portfolio ---------------------------------------*/
 
 .port-marg {
-  /* margin-top: 200px;
-  margin-bottom: 200px; */
-  /* padding: 0px 0px; */
   position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
 }
 
-/* .portfolio {
-  padding: 0px 0px;
-  
-} */
-
-/* .portfolio img {
-  margin-bottom: 40px;
-  border: solid 1px grey;
-  margin-bottom: 40px;
-  
-} */
 
 #look {
   margin-top: 60px;
@@ -466,31 +458,36 @@ span {
   text-align: center;
 }
 
-
-#icons {
-  display: inline-block;
-  text-align: center;
-  border-radius: 100px;
-  background-color: #fc0;
-  box-shadow: 0px 0px 2px #888;
-  padding: 0.5em 0.6em;
+#icon-1 {
+  width: 100px;
+  height: 100px;
+  background: #fc0;
+  border-radius: 50%
 }
+#icon-2 {
+  width: 100px;
+  height: 100px;
+  background: #fc0;
+  border-radius: 50%
+}
+#icon-3 {
+  width: 100px;
+  height: 100px;
+  background: #fc0;
+  border-radius: 50%
+}
+
 
 /* ----------------------------------contact page---------------------------------- */
 
 .social {
-  /* background-color: #ffffff; */
   text-align: center;
   margin-bottom: 35px;
-  /* padding-bottom: 35px; */
-  /* border: 1px solid #bdbdbd; */
   padding: 0px 0px 20px 75px;
 }
 
 .social-header {
   color: #192127;
-  /* background-color: #ffffff; */
-  /* border-bottom: 2px solid #bdbdbd; */
   margin-bottom: 13px;
 }
 
@@ -532,21 +529,16 @@ span {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-  /* border: solid 1px white; */
 }
 
 .fa-slack {
   background:#02bb79;
   color: white;
-  /* border: solid 1px white; */
 } 
 
 .fa-github {
   background:#000000;
   color: white;
-  /* border: solid 1px white; */
 }
 
-/* .clearfix {
-  overflow: auto;
-} */
+
