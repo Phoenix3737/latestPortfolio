@@ -264,8 +264,8 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 }
 
 .button-fade {
-    -webkit-animation: 12s ease 0s normal forwards 1 fadein;
-    animation: 12s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 10s ease 0s normal forwards 1 fadein;
+    animation: 10s ease 0s normal forwards 1 fadein;
 }
 
 @keyframes fadein{
