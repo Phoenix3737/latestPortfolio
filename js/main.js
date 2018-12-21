@@ -1,3 +1,18 @@
+// scroll to top on window reload //
+window.onbeforeunload = function () {
+	window.scrollTo(0, 0);
+  }
+
+  var hotbod = document.querySelector("body");
+
+  function doStuff() {
+	  hotbod.className += " animate";
+  }
+  
+  window.onload = function() {
+	  doStuff();
+  };
+  
 (function(){
     // Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 	// toggle main navigation on mobile
@@ -37,12 +52,3 @@
 	}
 })();
 
-var hotbod = document.querySelector("body");
-
-function doStuff() {
-    hotbod.className += " animate";
-}
-
-window.onload = function() {
-    doStuff();
-};
