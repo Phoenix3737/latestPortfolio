@@ -228,7 +228,7 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 .cd-scrolling-bg.cd-scrolling-bg--color-2 {
   background-color: #687a84;
   color: #3d3536;
-  padding-top: 90px;
+  padding-top: 200px;
   padding-bottom: 800px;
 }
 
@@ -405,12 +405,12 @@ span {
 
 /*------------------------------------------------- portfolio ---------------------------------------*/
 
-.port-marg {
+/* .port-marg {
   position: absolute;
-  top: 50%;
+  top: 75%;
   left:50%;
   transform: translate(-50%,-50%);
-}
+} */
 
 
 #look {
@@ -418,8 +418,21 @@ span {
 }
 
 .overlay-container {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  width: 80%;
+}
+
+#projects-header h1 {
+  text-align: center;
+  border-bottom: #2f292a solid 2px;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 477px;
+  padding: 15px;
 }
 
 /*bootstrap */
@@ -512,50 +525,22 @@ span {
   transition-delay:.2s;
   }
 
-/* .image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .6s ease;
-  background-color: #fefeff;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: #2f292a;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
-
-
 /* -------------------About Section-------------------------------------------------------------------- */
+#about-header {
+  text-align: center;
+  border-bottom: #2f292a solid 2px;
+  position: absolute;
+  top: 7%;
+  left: 41%;
+}
+
 .about-text h1{
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .about-text h2{
     font-size: 24px;
-    /* font-weight: bolder; */
+    font-weight: bolder;
 }
 #icon-1 {
   width: 100px;
@@ -576,6 +561,8 @@ span {
   border-radius: 50%
 }
 
+/* -------------Chart---------- */
+
 
 /* ----------------------------------contact page---------------------------------- */
 
@@ -594,6 +581,13 @@ span {
   margin-bottom: 13px;
 }
 
+.fab {
+  padding: 20px;
+  width: 82px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 .fa {
   padding: 20px;
   width: 82px;
