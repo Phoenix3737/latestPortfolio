@@ -315,7 +315,7 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 }
 
 
-span {
+.unbreakable-text {
   font-family: 'Anton', Helvetica, sans-serif;
   font-size: 40px;
   text-transform: uppercase;
@@ -404,18 +404,6 @@ span {
 }
 
 /*------------------------------------------------- portfolio ---------------------------------------*/
-
-/* .port-marg {
-  position: absolute;
-  top: 75%;
-  left:50%;
-  transform: translate(-50%,-50%);
-} */
-
-
-#look {
-  margin-top: 60px;
-}
 
 .overlay-container {
   position: absolute;
@@ -561,7 +549,218 @@ span {
   border-radius: 50%
 }
 
+/* Profile pic */
+
+
+#slider {
+  height: 360px;
+  background: #000000;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.slide-in.start {
+  animation: slide-in 2s forwards;
+  -webkit-animation: slide-in 2s forwards;
+}
+
+.slide-out {
+  animation: slide-out 0.5s forwards;
+  -webkit-animation: slide-out 0.5s forwards;
+}
+  
+@keyframes slide-in {
+  100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+  100% { -webkit-transform: translateX(0%); }
+}
+  
+@keyframes slide-out {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+  0% { -webkit-transform: translateX(0%); }
+  100% { -webkit-transform: translateX(-100%); }
+}
+
+
 /* -------------Chart---------- */
+
+body {
+  background: black;
+  color: white;
+}
+.wrapper {
+  margin-top: 60px;
+  margin-left: 30px;
+  line-height: 28px;
+}
+
+.wrapper h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-block-end: 5%;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.skills-area {
+  width: 100%;
+}
+
+.single-skills {
+  list-style: none;
+  padding-top: 25px;
+}
+
+.single-skills li {
+  margin-block-end: 40px;
+  height: 50px;
+}
+
+.single-skills li b {
+  position: relative;
+  top: -20px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.line {
+  position: absolute;
+  background-color: #333;
+  margin: 20px 0;
+  height: 15px;
+}
+
+.html.start {
+  width: 90%;
+  -webkit-animation: 2s ease-out html;
+  -o-animation: 2s ease-out html;
+  animation: 2s ease-out html;
+}
+
+.css.start {
+  width: 80%;
+  -webkit-animation: 2s ease-out css;
+  -o-animation: 2s ease-out css;
+  animation: 2s ease-out css;
+}
+
+.javascript.start {
+  width: 70%;
+  -webkit-animation: 2s ease-out javascript;
+  -o-animation: 2s ease-out javascript;
+  animation: 2s ease-out javascript;
+}
+  
+.photoshop.start {
+  width: 90%;
+  -webkit-animation:  2s ease-out photoshop;
+  -o-animation:  2s ease-out photoshop;
+  animation: 2s ease-out photoshop;
+}
+
+.react.start {
+  width: 60%;
+  -webkit-animation: 2s ease-out react;
+  -o-animation: 2s ease-out react;
+  animation: 2s ease-out react;
+}
+
+ @keyframes html {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@-webkit-keyframes html {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes css {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes css {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes javascript {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes javascript {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+@keyframes photoshop {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes photoshop {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes react {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes react {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 60%;
+  }
+}
 
 
 /* ----------------------------------contact page---------------------------------- */
