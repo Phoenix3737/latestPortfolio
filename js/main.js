@@ -1,18 +1,19 @@
 // scroll to top on window reload //
 window.onbeforeunload = function () {
 	window.scrollTo(0, 0);
-  }
+}
 
-  var hotbod = document.querySelector("body");
+var hotbod = document.querySelector("body");
 
-  function doStuff() {
-	  hotbod.className += " animate";
-  }
+function doStuff() {
+	hotbod.className += " animate";
+}
 
-  window.onload = function() {
-	  doStuff();
-  };
-  
+window.onload = function () {
+	doStuff();
+};
+
+//animate pic and horizontal graph when scrolled into view//
 var $slider = document.getElementById('slider');
 
 $(window).load(function () {
@@ -28,14 +29,6 @@ $(window).load(function () {
 		}
 	});
 });
-
-// ---------------------------------------------
-
-
-
-
-
-
 
 (function () {
 	// Alternate Fixed & Scroll Backgrounds - by CodyHouse.co

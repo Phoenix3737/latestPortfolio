@@ -226,10 +226,9 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 }
 
 .cd-scrolling-bg.cd-scrolling-bg--color-2 {
+  height: 1200px;
   background-color: #687a84;
   color: #3d3536;
-  padding-top: 200px;
-  padding-bottom: 800px;
 }
 
 .cd-scrolling-bg.cd-scrolling-bg--color-3 {
@@ -251,12 +250,12 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
     font-weight: 300;
   }
 }
-/* -------------------------------------------smooth scroll------------------------------------ */
 
+/* -------------------------------------------smooth scroll------------------------------------ */
 
 /* ------------------------------------veiw my work button------------------------------------------ */
 
-#about-button{
+#about-button {
   color: #fff;
   background-color: #192127;
   border-color: #ffffff;
@@ -264,20 +263,32 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 }
 
 .button-fade {
-    -webkit-animation: 10s ease 0s normal forwards 1 fadein;
-    animation: 10s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 10s ease 0s normal forwards 1 fadein;
+  animation: 10s ease 0s normal forwards 1 fadein;
 }
 
-@keyframes fadein{
-    0% { opacity:0; }
-    66% { opacity:0; }
-    100% { opacity:1; }
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@-webkit-keyframes fadein{
-    0% { opacity:0; }
-    66% { opacity:0; }
-    100% { opacity:1; }
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* ------------------------------------animated text------------------------------------------------ */
@@ -307,13 +318,11 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
   /* border-top: #bebebe solid 2px; */
 }
 
-
 .animate .ks {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
 }
-
 
 .unbreakable-text {
   font-family: 'Anton', Helvetica, sans-serif;
@@ -426,94 +435,95 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 /*bootstrap */
 
 .hovereffect {
-  width:100%;
-  height:100%;
-  float:left;
-  overflow:hidden;
-  position:relative;
-  text-align:center;
-  cursor:default;
-  }
-  
-  .hovereffect .overlay {
-  width:100%;
-  height:100%;
-  position:absolute;
-  overflow:hidden;
-  top:0;
-  left:0;
-  opacity:0;
-  background-color:rgba(0,0,0,0.5);
-  -webkit-transition:all .4s ease-in-out;
-  transition:all .4s ease-in-out
-  }
-  
-  .hovereffect img {
-  display:block;
-  position:relative;
-  -webkit-transition:all .4s linear;
-  transition:all .4s linear;
-  }
-  
-  .hovereffect h2 {
-  text-transform:uppercase;
-  color:#fff;
-  text-align:center;
-  position:relative;
-  font-size:17px;
-  background:rgba(0,0,0,0.6);
-  -webkit-transform:translatey(-100px);
-  -ms-transform:translatey(-100px);
-  transform:translatey(-100px);
-  -webkit-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
-  padding:10px;
-  }
-  
-  .hovereffect a.info {
-  text-decoration:none;
-  display:inline-block;
-  text-transform:uppercase;
-  color:#fff;
-  border:1px solid #fff;
-  background-color:transparent;
-  opacity:0;
-  filter:alpha(opacity=0);
-  -webkit-transition:all .2s ease-in-out;
-  transition:all .2s ease-in-out;
-  margin:50px 0 0;
-  padding:7px 14px;
-  }
-  
-  .hovereffect a.info:hover {
-  box-shadow:0 0 5px #fff;
-  }
-  
-  .hovereffect:hover img {
-  -ms-transform:scale(1.2);
-  -webkit-transform:scale(1.2);
-  transform:scale(1.2);
-  }
-  
-  .hovereffect:hover .overlay {
-  opacity:1;
-  filter:alpha(opacity=100);
-  }
-  
-  .hovereffect:hover h2,.hovereffect:hover a.info {
-  opacity:1;
-  filter:alpha(opacity=100);
-  -ms-transform:translatey(0);
-  -webkit-transform:translatey(0);
-  transform:translatey(0);
-  }
-  
-  .hovereffect:hover a.info {
-  -webkit-transition-delay:.2s;
-  transition-delay:.2s;
-  }
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translatey(-100px);
+  -ms-transform: translatey(-100px);
+  transform: translatey(-100px);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  padding: 10px;
+}
+
+.hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  margin: 50px 0 0;
+  padding: 7px 14px;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.hovereffect:hover h2, .hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+
+.hovereffect:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
 
 /* -------------------About Section-------------------------------------------------------------------- */
+
 #about-header {
   text-align: center;
   border-bottom: #2f292a solid 2px;
@@ -522,26 +532,30 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
   left: 41%;
 }
 
-.about-text h1{
-    font-size: 36px;
-    font-weight: bold;
+.about-text h1 {
+  font-size: 36px;
+  font-weight: bold;
 }
-.about-text h2{
-    font-size: 24px;
-    font-weight: bolder;
+
+.about-text h2 {
+  font-size: 24px;
+  font-weight: bolder;
 }
+
 #icon-1 {
   width: 100px;
   height: 100px;
   background: #fc0;
   border-radius: 50%
 }
+
 #icon-2 {
   width: 100px;
   height: 100px;
   background: #fc0;
   border-radius: 50%;
 }
+
 #icon-3 {
   width: 100px;
   height: 100px;
@@ -551,14 +565,12 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
 
 /* Profile pic */
 
-
 #slider {
   height: 360px;
-  background: #000000;
-  transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .slide-in.start {
@@ -570,25 +582,36 @@ Alternate Fixed & Scroll Backgrounds - by CodyHouse.co
   animation: slide-out 0.5s forwards;
   -webkit-animation: slide-out 0.5s forwards;
 }
-  
+
 @keyframes slide-in {
-  100% { transform: translateX(0%); }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 @-webkit-keyframes slide-in {
-  100% { -webkit-transform: translateX(0%); }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
 }
-  
-@keyframes slide-out {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-100%); }
+
+/* @keyframes slide-out {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
 }
 
 @-webkit-keyframes slide-out {
-  0% { -webkit-transform: translateX(0%); }
-  100% { -webkit-transform: translateX(-100%); }
-}
-
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(-200%);
+  }
+} */
 
 /* -------------Chart---------- */
 
@@ -596,8 +619,9 @@ body {
   background: black;
   color: white;
 }
+
 .wrapper {
-  margin-top: 60px;
+  margin-top: 100px;
   margin-left: 30px;
   line-height: 28px;
 }
@@ -658,11 +682,11 @@ body {
   -o-animation: 2s ease-out javascript;
   animation: 2s ease-out javascript;
 }
-  
+
 .photoshop.start {
   width: 90%;
-  -webkit-animation:  2s ease-out photoshop;
-  -o-animation:  2s ease-out photoshop;
+  -webkit-animation: 2s ease-out photoshop;
+  -o-animation: 2s ease-out photoshop;
   animation: 2s ease-out photoshop;
 }
 
@@ -673,95 +697,95 @@ body {
   animation: 2s ease-out react;
 }
 
- @keyframes html {
-  0%{
+@keyframes html {
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 90%;
   }
 }
+
 @-webkit-keyframes html {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 90%;
   }
 }
 
 @-webkit-keyframes css {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 80%;
   }
 }
 
 @keyframes css {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 80%;
   }
 }
 
 @keyframes javascript {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 70%;
   }
 }
 
 @-webkit-keyframes javascript {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 70%;
   }
 }
 
 @keyframes photoshop {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 90%;
   }
 }
 
 @-webkit-keyframes photoshop {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 90%;
   }
 }
 
 @keyframes react {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 60%;
   }
 }
 
 @-webkit-keyframes react {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 60%;
   }
 }
-
 
 /* ----------------------------------contact page---------------------------------- */
 
@@ -787,6 +811,7 @@ body {
   text-decoration: none;
   margin: 5px 2px;
 }
+
 .fa {
   padding: 20px;
   width: 82px;
@@ -808,13 +833,13 @@ body {
 }
 
 .fa-linkedin:hover {
-  background:white;
+  background: white;
   color: #007bb5;
-} 
+}
 
 .fa-slack:hover {
   background: white;
-  color:#02bb79; 
+  color: #02bb79;
 }
 
 .fa-github:hover {
@@ -828,13 +853,11 @@ body {
 }
 
 .fa-slack {
-  background:#02bb79;
-  color: white;
-} 
-
-.fa-github {
-  background:#000000;
+  background: #02bb79;
   color: white;
 }
 
-
+.fa-github {
+  background: #000000;
+  color: white;
+}
